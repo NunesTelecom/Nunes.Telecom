@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "Nunes Telecom — início"
+    },
+    {
+      "path": "/servicos.html",
+      "title": "Serviços — Nunes Telecom"
+    }
+  ]
+}
