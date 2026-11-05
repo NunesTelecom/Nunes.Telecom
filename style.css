@@ -434,3 +434,7 @@ a.contact-item:hover strong { color: #ff8c93; }
   .service-next-step-inner { align-items: flex-start; flex-direction: column; gap: 24px; }
   .service-next-step h2 { font-size: 33px; }
 }
+
+.hero-carousel-controls {
+  display: none !important;
+}
