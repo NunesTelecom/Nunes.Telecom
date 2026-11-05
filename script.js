@@ -92,7 +92,7 @@
       let currentIndex = 0;
       let activeImage = images.find((image) => image.classList.contains("is-active")) || images[0];
       let timer = null;
-      let userPaused = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let userPaused = false;
       let pointerInside = false;
       let focusInside = false;
       let transitionId = 0;
@@ -102,7 +102,7 @@
         preload.src = src;
       });
 
-      const shouldRotate = () => !userPaused && !pointerInside && !focusInside && !document.hidden;
+      const shouldRotate = () => !document.hidden;
 
       const updateToggle = () => {
         const paused = userPaused;
